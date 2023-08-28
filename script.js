@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const PercaMascara = 66;
         const Mascara = 1986;
-        const Tecido = 30;
-        const Elastico = 20;
+        const Tecido = 0.30;
+        const Elastico = 0.20;
         
             
         switch (opcao) {
