@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
 
             case "d":
-                const PercaTecido = (N / 0.0332326284) * Tecido;
-                const PercaElastico = ( N / 0.0332326284 ) * Elastico;
+                const PercaTecido = (N / 66) * Tecido;
+                const PercaElastico = ( N / 66 ) * Elastico;
                 resultado.textContent = `Perda de tecido: ${PercaTecido.toFixed(2)} m² \nPerda de elástico: ${PercaElastico.toFixed(2)} m`;
                 break;
         }
